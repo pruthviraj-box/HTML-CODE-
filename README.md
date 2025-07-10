@@ -13,7 +13,7 @@ PRITHVIRAJ NARAVDE
 </BODY>
 </HTML>
 
-<html>
+2<html>
 <title>Heading</title>
 <body>
 <h1>PRUTHVIRAJ</h1>
@@ -24,6 +24,62 @@ PRITHVIRAJ NARAVDE
 <h6></h6>
 </body>
 </html>
+
+3.<html>
+<head>
+    
+    <titl>text formating code</title>
+</head>
+<body>
+    <b> global chalange  </b>
+    <br>
+    <em> global chalange</em>
+    <br>
+    <small> global chalange  </small>
+    <br>
+    <sup> global chalange  </sup>
+    <br>
+    <sub> global chalange  </sub>
+    <br>
+    <strong> global chalange  </strong>
+    <br>
+    <big> global chalange  </big>
+     <br>
+    <strike> global chalange  </strike>
+    <br>
+    <tt> global chalange</tt>
+
+</body>
+</html>
+
+
+
+4<html>
+<head>
+    
+    <title> font color</title>
+</head>
+<body>
+    <br><font color ="red" size="8"face="arial"> global chalange </font>
+    <br><font color ="orange" size="9"face="comic sans MS"> global chalange </font>
+    <br><font color ="yellow" size="6"face="lucida sans unicode"> global chalange </font>
+    <br><font color ="green" size="7"face="courier new"> global chalange </font>
+    <br><font color ="blue" size="4"face="time new roman"> global chalange </font>
+    <br><font color ="pink" size="10"face="arial black"> global chalange </font>
+    <br><font color ="purple" size="3"face="impact"> global chalange </font>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
