@@ -187,6 +187,7 @@ html>
 
 
 
+!DOCTYPE html>
 <html>
 <head>
     
@@ -197,24 +198,25 @@ html>
         <p id = "output"></p>
         <script>
             let name ="Ajay";
-            let age =24;
+            let age = 24;
             let is_student = true;
-            let person ={
-                firstname ="Ajay",
-                lastname =" karan"
+            let person = {
+                firstName : "Ajay",
+                lastName : "Karan"
             };
             let color = [ "red","blue"];
             let address = null;
             let phnumber ;
 
-            let output = 
+            let output = `
             name (string) : ${name } <br>
             age (number) :  ${age } <br>
             is_student (boolean): ${is_student }<br>
             person(object): ${JSON.stringify(person)}<br>
             color(Array) : ${color.join(",")}<br>
             address(null) : ${ address}<br>
-            phnumber (undefined): ${phone};
+            phnumber (undefined): ${phone}
+            `;
             document.getElementById("output").innerhtml = output ;
             </script> 
 
