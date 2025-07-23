@@ -141,3 +141,83 @@ html>
     </footer>
 </body>
 </html>
+
+
+# javascript 
+<html>
+<head>
+    <title> javascript examle</title>
+</head>
+<body>
+    <h2> welcome to my page </h2>
+    <p> click the button to see a message : </p>
+    <button onclick = "showmessage()">click me </button>
+    <p id = "message"></p>
+    <script>
+        function showmessage(){
+            document .getElementById("message").innerText="hellow javascript is working ";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+    <titl> javascript assigment operator </title>
+</head>
+<body>
+    <h2> javascript assigment operator demo</h2>
+    <p id ="output"></p>
+    <script> 
+        let number = 10;
+        number+=5;
+        number-=6;
+        number*=5;
+        number/=5;
+        number%=5;
+        decoment.getElementById("output").innerhtml = "final value is "+ number;
+        
+    </script>
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+    
+    <title>javascript data type </title>
+</head>
+<body>
+    <h1> javascript data type demo</h1>
+        <p id = "output"></p>
+        <script>
+            let name ="Ajay";
+            let age =24;
+            let is_student = true;
+            let person ={
+                firstname ="Ajay",
+                lastname =" karan"
+            };
+            let color = [ "red","blue"];
+            let address = null;
+            let phnumber ;
+
+            let output = 
+            name (string) : ${name } <br>
+            age (number) :  ${age } <br>
+            is_student (boolean): ${is_student }<br>
+            person(object): ${JSON.stringify(person)}<br>
+            color(Array) : ${color.join(",")}<br>
+            address(null) : ${ address}<br>
+            phnumber (undefined): ${phone};
+            document.getElementById("output").innerhtml = output ;
+            </script> 
+
+</body>
+</html>
+
