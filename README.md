@@ -223,3 +223,38 @@ html>
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head></head>
+    <title>javascript string example </title>
+</head>
+<body><h2>javascript string example</h2>
+<p id ="demo"></p>
+    <script> 
+        let firstName = "jon";
+        let lastName ="joy";
+        let fullName = firstName +""+lastName;
+
+        let upperCaseName = fullName .toUpperCase();
+        let namelength = fullName.length;
+        let containsjoy = fullName.includes ("joy");
+        document.getElementById("demo").innerHTML= "full name : "+fullName+"<br>"+
+        "upperCaseName : " + upperCaseName +""+"<br>"+
+        "Length : "+ namelength + ""+"<br>"+
+        "contain  'joy'?" + containsjoy;
+
+    </script>
+</body>
+</html>
