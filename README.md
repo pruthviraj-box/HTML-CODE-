@@ -258,3 +258,78 @@ html>
     </script>
 </body>
 </html>
+
+
+
+<html>
+    <head> 
+        <title> addition  calculation </title>
+    </head>
+<body>
+
+    <h2>Add two number </h2>
+       <input type="number " id="num1" placeholder="first number">
+       <input type="number " id="num2" placeholder="second  number">
+       <button onclick="Addnumbers()">add </button>
+       <p id = "result"></p>
+    <script>
+    function Addnumbers(){
+        let a = parseFloat ( document.getElementById ('num1').value);
+        let b = parseFloat ( document.getElementById ('num2').value);
+        let sum = a+b;
+        document.getElementById("result").innerHTML="sum: "+sum;
+    }
+    </script>
+</body>    
+</html>
+
+
+
+
+
+<html>
+    <head> 
+        <title> multiplication  table </title>
+    </head>
+<body>
+
+    <h2> multiplication table  </h2>
+       <input type="number " id="number" placeholder="Enter the  number">
+       <button onclick="generateTable()">generateTable</button>
+       <ul id = "table"></ul>
+    <script>
+    function generateTable(){
+        let num = parseInt ( document.getElementById ('number').value);
+        let output = "";
+        for (let i=1 ; i<=10 ; i++)
+    {
+        output += `<li>${num} x ${i} = ${num * i}</li>`;
+    }
+        document.getElementById('table').innerHTML=output;
+    }
+    </script>
+</body>    
+</html>
+
+
+
+<html>
+    <head>
+        <title> Qudatric solver </title>
+    </head>
+<body>
+<h2>solve ax^2+ bx +c =o</h2>
+<input type ="number"id="a"placeholder="a">
+<input type ="number"id="b"placeholder="body">
+<input type ="number"id="c"placeholder="c">
+<button onclick="solveQudratic()">solve</button>
+<p id ="solution"></p>
+<script>
+    let a = parseFloat ( document.getElementById ('a').value);
+    let b = parseFloat ( document.getElementById ('b').value);
+    let c = parseFloat ( document.getElementById ('c').value);
+    let 
+</script>
+
+</body>    
+</html>
