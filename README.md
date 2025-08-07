@@ -320,15 +320,31 @@ html>
 <body>
 <h2>solve ax^2+ bx +c =o</h2>
 <input type ="number"id="a"placeholder="a">
-<input type ="number"id="b"placeholder="body">
+<input type ="number"id="b"placeholder="b">
 <input type ="number"id="c"placeholder="c">
 <button onclick="solveQudratic()">solve</button>
 <p id ="solution"></p>
 <script>
+    function solveQudratic(){
     let a = parseFloat ( document.getElementById ('a').value);
     let b = parseFloat ( document.getElementById ('b').value);
     let c = parseFloat ( document.getElementById ('c').value);
-    let 
+    let discriminant = b*b-4*a*c;
+    let result;
+    if (discriminant > 0){
+    let root1 = (-b + Math.sqrt (discriminant))/(2*a);
+    let root2 = (-b - Math.sqrt (discriminant))/(2*a);
+    result =`Two real root: ${root1.toFixed(2)} and ${root2.toFixed(2)}`;
+    }
+    else if (discriminant == 0){
+        let root = -b / (2*a );
+        result = `one real root : ${root.toFixed(2)}`;
+    }
+    else {
+        result = "no real root";
+    }
+    document.getElementById("solution").innerHTML = result ;
+}
 </script>
 
 </body>    
