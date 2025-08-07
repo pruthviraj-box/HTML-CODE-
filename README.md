@@ -72,6 +72,33 @@ PRITHVIRAJ NARAVDE
 
 
 
+<html>
+  <body>
+    <p>An image 
+    <img src="file:///C:/WINDOWS/Zapotec.bmp" width="48" height="48"> in the text</p>
+
+    <p>An image 
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV." align="bottom" width="48" height="48"> in the text</p>
+
+    <p> an image 
+        <img src =" https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV.jpg" align ="middle" width="48"  height="60">in the text 
+    </p>
+    <p>An image 
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fimr3bel%2Fart%2FNight-Wolf-832803289&psig=AOvVaw28BI6HvqIj_a5FUHZooM9j&ust=1754676701660000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjsk56m-Y4DFQAAAAAdAAAAABAs.jpg" align="top" width="48" height="48"> in the text</p>
+
+    <p>Note that bottom alignment is the default alignment</p>
+
+    <p>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV.jpg" width="48" height="48">
+      An image before the text
+    </p>
+
+    <p>
+      An image after the text
+      <img src="file:///C:/WINDOWS/Zapotec.bmp" width="48" height="48">
+    </p>
+  </body>
+</html>
 
 
 
@@ -83,7 +110,8 @@ PRITHVIRAJ NARAVDE
 
 
 
-html>
+
+<html>
 <head>
     <title>GreenWave Initiative</title>
 </head>
