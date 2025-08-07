@@ -102,6 +102,26 @@ PRITHVIRAJ NARAVDE
 
 
 
+<html>
+  <body>
+    <p>
+      <img src="c:\Users\samar\Downloads\wolf.black.jpg" align="bottom" width="200" height="200">
+    </p>
+    <p>
+      <img src="c:\Users\samar\Downloads\lione.black.jpg" align="middle" width="400" height="400">
+    </p>
+    <p>
+      <img src="c:\Users\samar\Downloads\swan.black.jpeg" align="top" width="600" height="600">
+    </p>
+    <p>
+      <img src="c:\Users\samar\Downloads\tiger-white.jpg" width="800" height="800">
+    </p>
+    <p>
+      <img src="c:\Users\samar\Downloads\boy.image.jpeg" width="1000" height="1000">
+    </p>
+  </body>
+</html>
+
 
 
 
