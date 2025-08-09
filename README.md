@@ -551,7 +551,7 @@ PRITHVIRAJ NARAVDE
         p {
             color: blue;
             text-align: center;
-            font-size:"30px
+            font-size:"30px";
         }
     </style>
     <title>title</title>
