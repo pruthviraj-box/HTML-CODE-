@@ -351,6 +351,68 @@ PRITHVIRAJ NARAVDE
 
 
 
+<html>
+<head>
+    <title>rtfolio</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Prithviraj </h1>
+    <p>Web Developer | Designer | Freelancer</p>
+    <hr>
+</header>
+
+<!-- About Section -->
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I'm Prithviraj, a passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
+</section>
+
+<!-- Projects Section -->
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li>Portfolio Website</li>
+        <li>Online Store</li>
+        <li>Mobile App UI Design</li>
+    </ul>
+</section>
+<!-- Skills Section -->
+<section>
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, React, Git, Bootstrap</p>
+</section>
+
+<!-- Contact Section -->
+<section>
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="message">Message:</label><br>
+ <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+<input type="submit" value="Send">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 John Doe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
 
 
 
