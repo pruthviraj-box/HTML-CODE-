@@ -227,6 +227,25 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+<html>
+<body>
+    <h3>Without cellpadding:</h3>
+    <table border="2" bgcolor="green">
+        <tr><td>Jones</td></tr>
+        <tr><td>Smith</td></tr>
+        <tr><td>Hayes</td></tr>
+        <tr><td>Jackson</td></tr>
+    </table>
+
+    <h4>With cellpadding:</h4>
+    <table border="8" cellpadding="300" background="c:\Users\shubh\Downloads\silentboy.jpg">
+       <tr><td>Jones</td></tr> 
+        <tr><td>Smith</td></tr>
+        <tr><td>Hayes</td></tr>
+        <tr><td>Jackson</td></tr>
+    </table>
+</body>
+</html>
 
 
 
