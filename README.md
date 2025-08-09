@@ -124,6 +124,17 @@ PRITHVIRAJ NARAVDE
 
 
 
+<html>
+<head>
+    <title>text alignment tag </title>
+</head>
+<body>
+    <h1 align="left">global information</h1>
+    <h1 align="center">global information</h1>
+    <h1 align="right">global information</h1>
+</body>
+</html>
+
 
 
 
