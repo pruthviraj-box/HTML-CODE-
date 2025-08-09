@@ -353,7 +353,7 @@ PRITHVIRAJ NARAVDE
 
 <html>
 <head>
-    <title>rtfolio</title>
+    <title>portfolio</title>
 </head>
 <body>
 
@@ -404,7 +404,7 @@ PRITHVIRAJ NARAVDE
 
 <!-- Footer -->
 <footer>
-    <p>&copy; 2025 John Doe. All rights reserved.</p>
+    <p>&copy; 2025 prithviraj. All rights reserved.</p>
 </footer>
 
 </body>
