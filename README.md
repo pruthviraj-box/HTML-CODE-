@@ -469,6 +469,28 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+<html>
+<head>
+    <title>Download Audio and Video</title>
+</head>
+<body>
+    <h2>Audio Download</h2>
+    <audio controls>
+        <source src="c:\Users\shubh\Music\Arjan Vailly - Manan Bhardwaj, Bhupinder Babbal.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <a href="c:\Users\shubh\Music\Arjan Vailly - Manan Bhardwaj, Bhupinder Babbal.m4a" download>Download Audio</a>
+
+ <h2>Video Download</h2>
+    <video width="320" height="240" controls>
+        <source src="c:\Users\shubh\Downloads\TAG_-_🦁❤️👬🌎___________________________________________._._._._._._._ᴏ_ɴ_ᴇ__ᴍ_ᴀ_ɴ__s_ʜ_ᴏ_ᴡ_._._🎧Use_Headphones_For_Better_sound_Effect🎧_Close_You_.mp4">
+    </video>
+    <br>
+    <a href="c:\Users\shubh\Downloads\TAG_-_🦁❤️👬🌎___________________________________________._._._._._._._ᴏ_ɴ_ᴇ__ᴍ_ᴀ_ɴ__s_ʜ_ᴏ_ᴡ_._._🎧Use_Headphones_For_Better_sound_Effect🎧_Close_You_.mp4" download>Download Video</a>
+</body>
+</html>
+
 
 
 
