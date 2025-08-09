@@ -301,6 +301,58 @@ PRITHVIRAJ NARAVDE
 
 
 
+<html>
+<body>
+<form>
+    <h1>Create an Internet Mail Account</h1>
+
+<p>First Name <input type="text" name="T1" size="30"></p>
+
+<p>Last Name <input type="text" name="T2" size="30"></p>
+
+<p>Desired Login Name <input type="text" name="T3" size="20">@mail.com</p>
+
+<p>Password <input type="password" name="T4" size="20"></p>
+
+<input type="radio" checked="checked" name="sex" value="male" /> Male<br>
+    <input type="radio" name="sex" value="female" /> Female
+
+ <p>Birthday <input type="text" name="T6" size="2"></p>
+
+ <select size="1" name="D2">
+        <option>Select One</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+
+<p><input type="text" name="T7" size="10"></p>
+
+ <p>Type Yourself
+        <textarea rows="4" name="S1" cols="20"></textarea>
+    </p>
+
+<br>
+    <input type="submit" value="Accept" name="B1">
+    <input type="reset" value="Cancel" name="B2">
+</form>
+</body>
+</html>
+
+
+
+
+
+
 
 
 
