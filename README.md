@@ -411,6 +411,67 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+<head>
+    <title>FutureTech Organization</title>
+</head>
+<body>
+
+    <!-- Header -->
+ <header>
+        <h1>FutureTech Organization</h1>
+        <p>Innovating for a Smarter Tomorrow</p>
+        <hr>
+    </header>
+
+    <!-- About Section -->
+ <section>
+        <h2>About Us</h2>
+        <p>FutureTech is a nonprofit organization dedicated to promoting technology education and digital innovation worldwide.</p>
+    </section>
+
+    <!-- Services / Programs -->
+<section>
+        <h2>Our Programs</h2>
+        <ul>
+            <li> Coding for Kids</li>
+            <li> Tech for Rural Areas</li>
+            <li> Free Online Courses</li>
+        </ul>
+    </section>
+
+    <!-- Team Section -->
+ <section>
+        <h2>Our Team</h2>
+        <p>Led by passionate tech professionals, educators, and volunteers from around the globe.</p>
+    </section>
+
+    <!-- Contact Section -->
+<section>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+<footer>
+        <hr>
+        <p>&copy; 2025 FutureTech Organization. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
 
 
 
