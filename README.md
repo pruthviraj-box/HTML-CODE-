@@ -269,6 +269,35 @@ PRITHVIRAJ NARAVDE
 </body>
 </html>
 
+<html>
+<body>
+
+<h4>Disc bullets list:</h4>
+<ul type="disc">
+  <li>Jones</li>
+  <li>Smith</li>
+  <li>Hayes</li>
+  <li>Jackson</li>
+</ul>
+
+<h4>Circle bullets list:</h4>
+<ul type="circle">
+  <li>Jones</li>
+  <li>Smith</li>
+  <li>Hayes</li>
+  <li>Jackson</li>
+</ul>
+
+<h4>Square bullets list:</h4>
+<ul type="square">
+  <li>Jones</li>
+  <li>Smith</li>
+  <li>Hayes</li>
+  <li>Jackson</li>
+</ul>
+
+</body>
+</html>
 
 
 
@@ -281,7 +310,7 @@ PRITHVIRAJ NARAVDE
 <head>
     <title>GreenWave Initiative</title>
 </head>
-<body>
+<body> 
 <!--Header-->
     <header>
         <h1>GreenWave Initiative</h1>
