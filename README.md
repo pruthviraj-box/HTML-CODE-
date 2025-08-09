@@ -140,7 +140,7 @@ PRITHVIRAJ NARAVDE
 <body>
 
 <h4>Horizontal Header:</h4>
-<table border="">
+<table border="5">
   <tr>
     <th>Name</th>
     <th>Loan No</th>
@@ -193,6 +193,38 @@ PRITHVIRAJ NARAVDE
 </body>
 </html>
 
+
+<html>
+<body>
+<h4>Cell that spans two columns:</h4>
+<table border="8">
+<tr>
+    <th>Name</th>
+    <th colspan="2">Loan No</th>
+</tr>
+<tr>
+    <td>Jones</td>
+    <td>L-1</td>
+    <td>L-2</td>
+</tr>
+</table>
+
+<h4>Cell that spans two rows:</h4>
+<table border="8">
+<tr>
+    <th>Name</th>
+    <td>Jones</td>
+</tr>
+<tr>
+    <th rowspan="2">Loan No</th>
+    <td>L-1</td>
+</tr>
+<tr>
+    <td>L-2</td>
+</tr>
+</table>
+</body>
+</html>
 
 
 
