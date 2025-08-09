@@ -27,7 +27,6 @@ PRITHVIRAJ NARAVDE
 
 3.<html>
 <head>
-    
     <titl>text formating code</title>
 </head>
 <body>
@@ -56,8 +55,7 @@ PRITHVIRAJ NARAVDE
 
 4<html>
 <head>
-    
-    <title> font color</title>
+     <title> font color</title>
 </head>
 <body>
     <br><font color ="red" size="8"face="arial"> global chalange </font>
@@ -76,24 +74,21 @@ PRITHVIRAJ NARAVDE
   <body>
     <p>An image 
     <img src="file:///C:/WINDOWS/Zapotec.bmp" width="48" height="48"> in the text</p>
-
-    <p>An image 
+ <p>An image 
     <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV." align="bottom" width="48" height="48"> in the text</p>
-
-    <p> an image 
+<p> an image 
         <img src =" https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV.jpg" align ="middle" width="48"  height="60">in the text 
     </p>
     <p>An image 
     <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fimr3bel%2Fart%2FNight-Wolf-832803289&psig=AOvVaw28BI6HvqIj_a5FUHZooM9j&ust=1754676701660000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjsk56m-Y4DFQAAAAAdAAAAABAs.jpg" align="top" width="48" height="48"> in the text</p>
+<p>Note that bottom alignment is the default alignment</p>
 
-    <p>Note that bottom alignment is the default alignment</p>
-
-    <p>
+<p>
       <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40pulsarai%2Fvideo%2F7446150659621063969&psig=AOvVaw3glOaRse-FK38OyMctohGU&ust=1754682069419000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCM1Z26-Y4DFQAAAAAdAAAAABAV.jpg" width="48" height="48">
       An image before the text
     </p>
 
-    <p>
+<p>
       An image after the text
       <img src="file:///C:/WINDOWS/Zapotec.bmp" width="48" height="48">
     </p>
@@ -246,6 +241,33 @@ PRITHVIRAJ NARAVDE
 </body>
 </html>
 
+<html>
+<body>
+    <h4>Numbered list:</h4>
+    <ol>
+        <li>Jones</li>
+        <li>Smith</li>
+        <li>Hayes</li>
+        <li>Jackson</li>
+    </ol>
+
+<h4>Letters list:</h4>
+    <ol type="A">
+        <li>Jones</li>
+        <li>Smith</li>
+        <li>Hayes</li>
+        <li>Jackson</li>
+    </ol>
+
+<h4>Roman numbers list:</h4>
+    <ol type="I">
+        <li>Jones</li>
+        <li>Smith</li>
+        <li>Hayes</li>
+        <li>Jackson</li>
+    </ol>
+</body>
+</html>
 
 
 
