@@ -136,6 +136,43 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+<html>
+<body>
+
+<h4>Horizontal Header:</h4>
+<table border="">
+  <tr>
+    <th>Name</th>
+    <th>Loan No</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td>Jones</td>
+    <td>L-1</td>
+    <td>5000</td>
+  </tr>
+</table>
+
+<br><br>
+
+<h4>Vertical Header:</h4>
+<table border="5">
+  <tr>
+    <th>Name</th>
+    <td>Jones</td>
+  </tr>
+  <tr>
+    <th>Loan No</th>
+    <td>L-1</td>
+  </tr>
+  <tr>
+    <th>Amount</th>
+    <td>5000</td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 
 
