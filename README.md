@@ -175,6 +175,32 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+<html>
+<body>
+<h3>Table without border</h3>
+<table>
+<tr>
+    <td>MILK</td>
+    <td>TEA</td>
+    <td>COFFEE</td>
+</tr>
+<tr>
+    <td>400</td>
+    <td>500</td>
+    <td>600</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
 
 
 
