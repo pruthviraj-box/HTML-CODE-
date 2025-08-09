@@ -492,17 +492,6 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
 <html>
 <head>
     <title>GreenWave Initiative</title>
@@ -552,6 +541,59 @@ PRITHVIRAJ NARAVDE
     </footer>
 </body>
 </html>
+
+
+# css styled 
+
+<html>
+<head>
+    <style type="text/css">
+        p {
+            color: blue;
+            text-align: center;
+            font-size:"30px
+        }
+    </style>
+    <title>title</title>
+</head>
+<body>
+    <p>helloworld</p>
+    <p> this paragraph in css style</p>
+</body>
+</html>
+
+
+
+<html>
+<head>
+    <style type="text/css">
+        p {
+            color: blue;
+            text-align: center;
+            font-size: "30px";
+        }
+    </style>
+</head>
+<body style="background-color:lightgreen;">
+    <p>helloworld</p>
+    <p> this paragraph in css style</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # javascript 
