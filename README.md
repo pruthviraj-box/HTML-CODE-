@@ -581,7 +581,21 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
-
+<html>
+<head>
+    <style type="text/css">
+        p {
+            color:black;
+            text-align: center;
+            font-size: "30px";
+        }
+    </style>
+</head>
+<body style="background-image:url('c:\Users\shubh\Downloads\silentboy.jpg'); background-size: cover;">
+    <p>silent boy </p>
+    <p> silent boy are always hurt by others </p>
+</body>
+</html>
 
 
 
