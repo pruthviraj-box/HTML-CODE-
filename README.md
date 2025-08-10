@@ -732,19 +732,16 @@ footer {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 /* Heading */
 h1 {
     text-align: center;
     color: #333;
 }
-
 /* To-Do List */
 .todo-list {
     list-style-type: none;
     padding: 0;
 }
-
 .todo-list li {
     background-color: #97d4ab;
     margin: 10px 0;
@@ -753,7 +750,6 @@ h1 {
     font-size: 1.1rem;
     transition: background-color 0.3s;
 }
-
 .todo-list li:hover {
     background-color: #d1f0dc;
 }
@@ -769,7 +765,6 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 .btn:hover {
     background-color: #3f9ac8;
 }
@@ -793,6 +788,102 @@ h1 {
 </html>
 
 
+
+
+<html>
+<head>
+    <title>Customer Feedback Survey</title>
+    <style>       
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dbd6d6;
+  margin: 0;
+  padding: 40px;
+}
+.form-container {
+  background-color: #80bfec;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.radio-group {
+  margin-top: 5px;
+}
+.radio-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Customer Feedback Survey</h1>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age" min="10" max="100" required>
+            <label>How did you hear about us?</label>
+            <select name="referral" required>
+                <option value="">-- Select an option --</option>
+                <option value="social">Social Media</option>
+                <option value="friend">Friend/Family</option>
+                <option value="ads">Online Ads</option>
+                <option value="other">Other</option>
+            </select>
+            <label>How satisfied are you with our service?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="satisfaction" value="very" required> Very Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="somewhat"> Somewhat Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="not"> Not Satisfied</label>
+            </div>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
 
 
 
