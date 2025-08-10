@@ -356,20 +356,17 @@ PRITHVIRAJ NARAVDE
     <title>portfolio</title>
 </head>
 <body>
-
 <!-- Header -->
 <header>
     <h1>Prithviraj </h1>
     <p>Web Developer | Designer | Freelancer</p>
     <hr>
 </header>
-
 <!-- About Section -->
 <section>
     <h2>About Me</h2>
     <p>Hello! I'm Prithviraj, a passionate web developer with expertise in HTML, CSS, and JavaScript.</p>
 </section>
-
 <!-- Projects Section -->
 <section>
     <h2>Projects</h2>
@@ -384,7 +381,6 @@ PRITHVIRAJ NARAVDE
     <h2>Skills</h2>
     <p>HTML, CSS, JavaScript, React, Git, Bootstrap</p>
 </section>
-
 <!-- Contact Section -->
 <section>
     <h2>Contact Me</h2>
@@ -411,24 +407,23 @@ PRITHVIRAJ NARAVDE
 </html>
 
 
+
+<html>
 <head>
     <title>FutureTech Organization</title>
 </head>
 <body>
-
-    <!-- Header -->
+   <!-- Header -->
  <header>
         <h1>FutureTech Organization</h1>
         <p>Innovating for a Smarter Tomorrow</p>
         <hr>
     </header>
-
-    <!-- About Section -->
+           <!-- About Section -->
  <section>
         <h2>About Us</h2>
         <p>FutureTech is a nonprofit organization dedicated to promoting technology education and digital innovation worldwide.</p>
     </section>
-
     <!-- Services / Programs -->
 <section>
         <h2>Our Programs</h2>
@@ -438,14 +433,12 @@ PRITHVIRAJ NARAVDE
             <li> Free Online Courses</li>
         </ul>
     </section>
-
-    <!-- Team Section -->
+ <!-- Team Section -->
  <section>
         <h2>Our Team</h2>
         <p>Led by passionate tech professionals, educators, and volunteers from around the globe.</p>
     </section>
-
-    <!-- Contact Section -->
+  <!-- Contact Section -->
 <section>
         <h2>Contact Us</h2>
         <form>
@@ -458,8 +451,7 @@ PRITHVIRAJ NARAVDE
             <input type="submit" value="Send Message">
         </form>
     </section>
-
-    <!-- Footer -->
+  <!-- Footer -->
 <footer>
         <hr>
         <p>&copy; 2025 FutureTech Organization. All rights reserved.</p>
