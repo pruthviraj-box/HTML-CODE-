@@ -610,11 +610,9 @@ PRITHVIRAJ NARAVDE
       margin: 10;                      
       height: 80vh;  
     }
-
 html, body {
       height: 80%;
     }
-
 p {
       color: #333;
       text-align: center;
@@ -625,7 +623,7 @@ p {
     </style>
 </head>
 <body>
-  <h1>silent boy</h1>
+    <h1>silent boy</h1>
   <p>silent boy are always hurt by others</p>
 </body>
 </html>
