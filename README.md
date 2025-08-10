@@ -721,6 +721,78 @@ footer {
 
 
 
+ <html>
+<head><style>
+    /* Main Container */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #36bed6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* To-Do List */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    background-color: #97d4ab;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-left: 5px solid #b993e4;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.todo-list li:hover {
+    background-color: #d1f0dc;
+}
+/* Button */
+.btn {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #36bed6;
+    color: rgba(182, 54, 54, 0.979);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3f9ac8;
+}
+</style>
+<title>My Daily To-Do List</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>My Daily To-Do List</h1>
+<ul class="todo-list">
+<li> Wake up at 6 AM</li>
+<li> Drink coffee</li>
+<li> Study CSS</li>
+<li> Go for a walk</li>
+<li> Clean my room</li>
+</ul>
+<button class="btn">Add New Task</button>
+</div>
+</body>
+</html>
+
+
 
 
 
