@@ -658,8 +658,8 @@ p {
 
   <section id="contact" class="container">
     <h2>Contact</h2>
-    <p>Email: janedoe@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/janedoe" target="_blank">Prithviraj</a></p>
+    <p>Email: prithviraj@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/prithviraj" target="_blank">Prithviraj</a></p>
   </section>
 
   <footer>
