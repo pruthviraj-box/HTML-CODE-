@@ -623,7 +623,55 @@ p {
 
 
 
+<html>
 <head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #364937;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    background-color: #49a0e2;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.1);
+}
+footer {
+    text-align: center;
+    background-color: #eee;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+</style>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -669,6 +717,7 @@ p {
   </footer>
 </body>
 </html>
+
 
 
 
