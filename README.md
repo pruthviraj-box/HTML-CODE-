@@ -623,6 +623,57 @@ p {
 
 
 
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Prithviraj Naravde</h1>
+      <p>Web Developer & Designer</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Prithviraj Naravde, a passionate web developer creating modern and responsive websites. I love working with HTML, CSS, JavaScript, and learning new technologies.</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> A personal website to showcase my work.</li>
+      <li><strong>To-Do App:</strong> A JavaScript-based task management tool.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: janedoe@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/janedoe" target="_blank">Prithviraj</a></p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Prithviraj</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
 
 
 
