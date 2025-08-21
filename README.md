@@ -1119,7 +1119,7 @@ let output = `
                 button{ margin: 6px; padding:5px ;border-radius: 3px; cursor:pointer;}
             #output {margin-top: 20px;font-weight: bold;}
 
-        </style>
+ </style>
     </head>
     <body>
     <h3>Array methord demo</h3>
