@@ -1103,3 +1103,90 @@ let output = `
 
 </body>    
 </html>
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>javascript Array methord </title>
+        <style>
+            body {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding: 20px;}
+                button{ margin: 6px; padding:5px ;border-radius: 3px; cursor:pointer;}
+            #output {margin-top: 20px;font-weight: bold;}
+
+        </style>
+    </head>
+    <body>
+    <h3>Array methord demo</h3>
+    <p>InitialARRAY: <span id="array"></span></p>
+    <input type="text"id="value"placeholder="enter value=">
+    <br><br>
+    <button onclick="additem()">push()</button> 
+    <button onclick="removeitem()">pop()</button>
+    <button onclick="shiftitem()">shift()</button>
+    <button onclick="unshiftitem()">unshift</button>
+    <button onclick="sortarray()">sort()</button>
+    <button onclick="reversearray()">reverse()</button>
+    <button onclick="filterarray()">filter()</button>
+    <button onclick="maparray()">map</button>
+    <p id ="output"></p>
+<script>
+    let arr=[1,2,3,5,4];
+    function showarray(){
+        document.getElementById("array").innerText = "["+arr.join(",")+"]";
+    }
+    function additem() {
+        let val = document.getElementById("value").value;
+        if (val) {
+            arr.push(val);
+            showarray();
+            document.getElementById("output").innerText = "Added: " + val;
+        }
+    }
+    function removeitem() {
+        let removed = arr.pop();
+        showarray();
+        document.getElementById("output").innerText = "Removed: " + removed;
+    }
+    function shiftitem() {
+        let shifted = arr.shift();
+        showarray();
+        document.getElementById("output").innerText = "Shifted: " + shifted;
+    }
+    function unshiftitem() {
+        let val = document.getElementById("value").value;
+        if (val) {
+            arr.unshift(val);
+            showarray();
+            document.getElementById("output").innerText = "Unshifted: " + val;
+        }
+    }
+    function sortarray() {
+        arr.sort((a, b) => a - b);
+        showarray();
+        document.getElementById("output").innerText = "Array sorted.";
+    }
+    function reversearray() {
+        arr.reverse();
+        showarray();
+        document.getElementById("output").innerText = "Array reversed.";
+    }
+    function filterarray() {
+        let filtered = arr.filter(num => num > 2);
+        showarray();
+        document.getElementById("output").innerText = "Filtered array: [" + filtered.join(", ") + "]";
+    }
+    function maparray() {
+        let mapped = arr.map(num => num * 2);
+        showarray();
+        document.getElementById("output").innerText = "Mapped array: [" + mapped.join(", ") + "]";
+    }
+    showarray();
+    </script>
+</body>
+</html>
