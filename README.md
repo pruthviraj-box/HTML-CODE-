@@ -1190,3 +1190,31 @@ let output = `
     </script>
 </body>
 </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Date and Time</title>
+</head>
+<body>
+    <h2>Live Date and Time</h2>
+    <p id="dateTime"></p>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById("dateTime").innerText = now.toString();
+        }
+
+        // Update every second
+        setInterval(updateTime, 1000);
+
+        // Call once immediately
+        updateTime();
+    </script>
+</body>
+</html>
