@@ -1218,3 +1218,24 @@ let output = `
     </script>
 </body>
 </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Example - Display</title>
+</head>
+<body>
+<h2>Fruit List</h2>
+<p id="fruits"></p>
+
+<script>
+const fruits = ["Apple", "Banana", "Cherry", "Mango"];
+document.getElementById("fruits").innerText = fruits.join(", ");
+</script>
+</body>
+</html>
