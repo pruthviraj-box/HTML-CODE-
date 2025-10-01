@@ -1239,3 +1239,29 @@ document.getElementById("fruits").innerText = fruits.join(", ");
 </script>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Search</title>
+</head>
+<body>
+<h2>Search in Array</h2>
+<input type="text" id="search" placeholder="Search fruit">
+<button onclick="searchFruit()">Search</button>
+<p id="result"></p>
+<script>
+const fruits = ["Apple", "Banana", "Cherry", "Mango"];
+function searchFruit() {
+const query = document.getElementById("search").value.toLowerCase();
+if (fruits.map(f => f.toLowerCase()).includes(query)) {
+document.getElementById("result").innerText = "Found!";
+} else {
+document.getElementById("result").innerText = "Not found.";
+}
+}
+</script>
+</body>
+</html>
