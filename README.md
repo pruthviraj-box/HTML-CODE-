@@ -1106,7 +1106,33 @@ let output = `
 
 
 
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+<title>Current Date and Time</title>
+
+</head>
+
+<body>
+
+<h2>Current Date and Time</h2>
+
+<p id="dateTime"></p>
+
+<script>
+
+const now = new Date();
+
+document.getElementById("dateTime").innerText = now.toString();
+
+</script>
+
+</body>
+
+</html>
 
 
 
