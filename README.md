@@ -2112,7 +2112,45 @@ function runLoop() {
 </html>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupee to Dollar Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rupee to Dollar Converter</h1>
+    <input type="number" id="rupeeAmount" placeholder="Enter amount in Rupees">
+    <button onclick="convertCurrency()">Convert</button>
+    <p id="result">Result: $0.00</p>
 
+    <script>
+        function convertCurrency() {
+            const rupeeAmount = parseFloat(document.getElementById("rupeeAmount").value);
+            if (isNaN(rupeeAmount) || rupeeAmount <= 0) {
+                document.getElementById("result").innerText = "Please enter a valid amount.";
+                return;
+            }
+            const dollarExchangeRate = 0.012; // 1 INR = 0.012 USD (example rate)
+            const dollars = rupeeAmount * dollarExchangeRate;
+            document.getElementById("result").innerText = `Result: $${dollars.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
 
 
 
