@@ -1671,7 +1671,35 @@ document.getElementById("result").innerHTML = "Zero";
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>If Else If Example</title>
+</head>
+<body>
 
+<h2>JavaScript If Else If</h2>
+<p id="demo"></p>
+
+<script>
+let score = 75;
+let result;
+
+if (score >= 90) {
+  result = "Grade: A";
+} else if (score >= 75) {
+  result = "Grade: B";
+} else if (score >= 50) {
+  result = "Grade: C";
+} else {
+  result = "Grade: F";
+}
+
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>
 
 
 
