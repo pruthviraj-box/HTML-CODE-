@@ -1728,6 +1728,36 @@ document.getElementById("result").textContent = "Numbers: " + text;
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>While Loop Example</title>
+</head>
+<body>
+<h2>JavaScript While Loop Example</h2>
+<p id="result"></p>
+
+<script>
+// While loop: print numbers 1 to 10
+let i = 1;
+let text = "";
+
+while(i < 10) {
+    text += i + " ";
+    i++;
+}
+
+document.getElementById("result").textContent = "Numbers: " + text;
+</script>
+</body>
+</html>
+
+
+
+
+
+
 
 
 
