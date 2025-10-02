@@ -1469,3 +1469,45 @@ document.getElementById("result").innerText = "Not found.";
 </html>
 
 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Add/Remove</title>
+</head>
+<body>
+<h2>Manage Array</h2>
+<input type="text" id="item" placeholder="Enter item">
+<button onclick="addItem()">Add</button>
+<button onclick="removeItem()">Remove Last</button>
+<p id="list"></p>
+
+<script>
+let items = ["Pen", "Pencil", "Eraser"];
+
+function updateList() {
+    document.getElementById("list").innerText = items.join(",");
+}
+
+function addItem() {
+    const newItem = document.getElementById("item").value;
+    if (newItem) {
+        items.push(newItem);
+        updateList();
+    }
+}
+
+function removeItem() {
+    items.pop();
+    updateList();
+}
+
+updateList();
+</script>
+</body>
+</html>
+
+
+
+
