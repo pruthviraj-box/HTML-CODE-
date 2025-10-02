@@ -1518,4 +1518,31 @@ updateList();
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Break Example</title>
+</head>
+<body>
+<h2>Break Example</h2>
+<div id="output"></div>
+
+<script>
+let text = "";
+for (let i = 1; i < 10; i++) {
+  if (i == 6) {
+    break; // Exit loop when i = 6
+  }
+  text += "i = " + i + "<br>";
+}
+document.getElementById("output").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+
+
+
+
 
