@@ -1950,6 +1950,63 @@ function runLoop() {
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript Events Example</h2>
+
+    <!-- 1. Button to trigger event -->
+    <button id="myButton">Click Me!</button>
+
+    <!-- 2. Input field to trigger event -->
+    <input type="text" id="myInput" placeholder="Type something...">
+
+    <!-- 3. Output area -->
+    <p id="output">Waiting for interaction...</p>
+
+    <script>
+        // Access the elements
+        const button = document.getElementById('myButton');
+        const input = document.getElementById('myInput');
+        const output = document.getElementById('output');
+
+        // 1. Event: Button click
+        button.addEventListener('click', function() {
+            output.textContent = "Button was clicked!";
+        });
+
+        // 2. Event: Input text change
+        input.addEventListener('input', function() {
+            output.textContent = "Input: " + input.value;
+        });
+
+        // 3. Event: Input loses focus
+        input.addEventListener('blur', function() {
+            output.textContent = "Input lost focus.";
+        });
+    </script>
+</body>
+</html>
+
+
+
+
 
 
 
