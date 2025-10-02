@@ -1365,3 +1365,107 @@ document.getElementById("result").innerText = "Not found.";
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>JavaScript Array Methods</title>
+    <style>
+        body{font-family: Arial, sans-serif; padding: 20px;}
+        button {margin: 5px; padding: 8px; border-radius: 6px; cursor: pointer;}
+        #output {margin-top: 20px; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>Array Methods Demo</h1>
+    <p>Initial Array: <span id="array"></span></p>
+    <input type="text" id="value" placeholder="Enter value">
+    <button onclick="additem()">Push()</button>
+    <button onclick="removeitem()">Pop()</button>
+    <button onclick="shiftitem()">Shift()</button>
+    <button onclick="unshiftitem()">Unshift()</button>
+    <button onclick="sortarray()">Sort()</button>
+    <button onclick="reversearray()">Reverse()</button>
+    <button onclick="filterarray()">Filter()</button>
+    <button onclick="maparray()">Map()</button>
+    <button onclick="reducearray()">Reduce()</button>
+    <div id="output"></div>
+
+    <script>
+        let arr = [1, 7, 3, 9, 4];
+
+        function showArray() {
+            document.getElementById("array").innerText = "[" + arr.join(", ") + "]";
+        }
+
+        function additem() {
+            let val = document.getElementById("value").value;
+            arr.push(val);
+            showArray();
+            document.getElementById("output").innerText = "Push(): Added " + val;
+        }
+
+        function removeitem() {
+            let removed = arr.pop();
+            showArray();
+            document.getElementById("output").innerText = "Pop(): Removed " + removed;
+        }
+
+        function shiftitem() {
+            let removed = arr.shift();
+            showArray();
+            document.getElementById("output").innerText = "Shift(): Removed " + removed;
+        }
+
+        function unshiftitem() {
+            let val = document.getElementById("value").value;
+            arr.unshift(val);
+            showArray();
+            document.getElementById("output").innerText = "Unshift(): Added " + val + " at start";
+        }
+
+        function sortarray() {
+            arr.sort();
+            showArray();
+            document.getElementById("output").innerText = "Sort(): Sorted array";
+        }
+
+        function reversearray() {
+            arr.reverse();
+            showArray();
+            document.getElementById("output").innerText = "Reverse(): Reversed array";
+        }
+
+        function filterarray() {
+            // Example: Filter out numbers greater than 5
+            arr = arr.filter(num => num <= 5);
+            showArray();
+            document.getElementById("output").innerText = "Filter(): Filtered array";
+        }
+
+        function maparray() {
+            // Example: Multiply each element by 2
+            arr = arr.map(num => num * 2);
+            showArray();
+            document.getElementById("output").innerText = "Map(): Mapped array";
+        }
+
+        function reducearray() {
+            // Example: Sum of all elements
+            let sum = arr.reduce((acc, curr) => acc + curr, 0);
+            document.getElementById("output").innerText = "Reduce(): Sum = " + sum;
+        }
+
+        // Initial display of the array
+        showArray();
+    </script>
+</body>
+</html>
+
+
