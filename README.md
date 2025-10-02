@@ -2153,7 +2153,34 @@ function runLoop() {
 </html>
 
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bootstrap Grid Example</title>
+<!-- Bootstrap CSS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container mt-5">
+<h2 class="text-center mb-4">Bootstrap Grid Layout</h2>
+<div class="row">
+<div class="col-md-4 col-sm-6 mb-3 bg-primary text-white text-center p-3">
+Column 1
+</div>
+<div class="col-md-4 col-sm-6 mb-3 bg-success text-white text-center p-3">
+Column 2
+</div>
+<div class="col-md-4 col-sm-12 mb-3 bg-warning text-dark text-center p-3">
+Column 3
+</div>
+</div>
+</div>
+<!-- Bootstrap JS Bundle via CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
 
 
