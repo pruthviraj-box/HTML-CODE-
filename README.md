@@ -1615,3 +1615,33 @@ if (age >= 18) {
 </html>
 
 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>If Else Example</title>
+</head>
+<body>
+
+<h2>JavaScript If Else</h2>
+<p id="demo"></p>
+
+<script>
+let hour = new Date().getHours();
+if (hour < 12) {
+  document.getElementById("demo").innerHTML = "Good Morning!";
+} else {
+  document.getElementById("demo").innerHTML = "Good Afternoon!";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
