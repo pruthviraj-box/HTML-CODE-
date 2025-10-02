@@ -1642,6 +1642,38 @@ if (hour < 12) {
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Condition with Button</title>
+</head>
+<body>
+<h2>Click to Check Number</h2>
+<input type="number" id="num" placeholder="Enter a number">
+<button onclick="checkNumber()">Check</button>
+<p id="result"></p>
+
+<script>
+function checkNumber() {
+let number = document.getElementById("num").value;
+
+if (number > 0) {
+document.getElementById("result").innerHTML = "Positive Number";
+} else if (number < 0) {
+document.getElementById("result").innerHTML = "Negative Number";
+} else {
+document.getElementById("result").innerHTML = "Zero";
+}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
 
 
 
