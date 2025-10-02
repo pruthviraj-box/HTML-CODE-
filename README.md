@@ -1596,6 +1596,22 @@ document.getElementById("desc").textContent = descending.join(",");
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript If Example</title>
+</head>
+<body>
+<h2>JavaScript If Condition</h2>
+<p id="demo"></p>
+<script>
+let age = 20;
 
+if (age >= 18) {
+  document.getElementById("demo").innerHTML = "You are an adult.";
+}
+</script>
+</body>
+</html>
 
 
