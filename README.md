@@ -1430,3 +1430,31 @@ updateList();
 
 
 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>While Loop Example</title>
+</head>
+<body>
+    <h2>While Loop Example</h2>
+    <div id="output"></div>
+
+    <script>
+        let count = 1;
+        let text = "";
+
+        while (count <= 5) {
+            text += "Count is: " + count + "<br>";
+            count++;
+        }
+
+        document.getElementById("output").innerHTML = text;
+    </script>
+</body>
+</html>
+
+
+
+
+
