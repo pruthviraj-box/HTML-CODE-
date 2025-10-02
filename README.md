@@ -1705,3 +1705,30 @@ document.getElementById("demo").innerHTML = result;
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Loop Example</title>
+</head>
+<body>
+<h2>JavaScript For Loop Example</h2>
+<p id="result"></p>
+<script>
+// For loop: print numbers 1 to 10
+let text = "";
+for (let i = 1; i <= 10; i++) {
+  text += i + " ";
+}
+document.getElementById("result").textContent = "Numbers: " + text;
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
