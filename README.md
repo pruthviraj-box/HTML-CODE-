@@ -2256,7 +2256,64 @@ Column 3
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Typography Example</title>
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
+    <div class="container mt-5">
+        <h1 class="text-center">Bootstrap Typography</h1>
+        <p class="lead text-muted text-center">Enhance your text styles easily with Bootstrap classes.</p>
+
+        <!-- Headings -->
+        <h2>Headings</h2>
+        <h1>h1. Bootstrap heading</h1>
+        <h2>h2. Bootstrap heading</h2>
+        <h3>h3. Bootstrap heading</h3>
+        <h4>h4. Bootstrap heading</h4>
+        <h5>h5. Bootstrap heading</h5>
+        <h6>h6. Bootstrap heading</h6>
+
+        <!-- Paragraphs and Text Utilities -->
+        <h2>Paragraphs and Text Utilities</h2>
+        <p>This is a normal paragraph with default Bootstrap styling.</p>
+        <p class="text-primary">This paragraph uses the <code>.text-primary</code> class to give it a primary color.</p>
+        <p class="text-success">This paragraph uses the <code>.text-success</code> class to indicate success.</p>
+        <p class="text-muted">This paragraph is muted using the <code>.text-muted</code> class.</p>
+        <p class="text-center">This paragraph is centered using the <code>.text-center</code> class.</p>
+
+        <!-- Blockquote -->
+        <h2>Blockquote</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">"Bootstrap makes it easy to style text with utility classes."</p>
+            <footer class="blockquote-footer">Someone Famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+
+        <!-- Lists -->
+        <h2>Lists</h2>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item">List item 1</li>
+            <li class="list-group-item">List item 2</li>
+            <li class="list-group-item">List item 3</li>
+        </ul>
+    </div>
+
+    <!-- Bootstrap JS via CDN (optional, if you need Bootstrap's JavaScript components) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
+</body>
+</html>
 
 
 
