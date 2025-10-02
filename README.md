@@ -2005,6 +2005,60 @@ function runLoop() {
 </html>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Celsius to Fahrenheit Converter</h1>
+    <label for="celsius">Enter Temperature in °C:</label>
+    <input type="number" id="celsius" placeholder="e.g. 25">
+    <button onclick="convertCelsius()">Convert</button>
+    <div id="result"></div>
+
+    <script>
+        function convertCelsius() {
+            // Get the input value
+            let celsius = document.getElementById("celsius").value;
+
+            // Check if input is a valid number
+            if (isNaN(celsius) || celsius === "") {
+                document.getElementById("result").innerText = "Please enter a valid number.";
+                return;
+            }
+
+            // Conversion formula: (°C × 9/5) + 32 = °F
+            let fahrenheit = (celsius * 9/5) + 32;
+
+            // Display the result
+            document.getElementById("result").innerText = celsius + "°C is equal to " + fahrenheit.toFixed(2) + "°F.";
+        }
+    </script>
+</body>
+</html>
 
 
 
