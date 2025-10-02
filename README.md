@@ -1543,6 +1543,23 @@ document.getElementById("output").innerHTML = text;
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For Loop Example</title>
+</head>
+<body>
+    <h2>For Loop Example</h2>
+    <div id="output"></div>
 
+    <script>
+        let text = "";
+        for (let i = 1; i <= 5; i++) {
+            text += "Number: " + i + "<br>";
+        }
+        document.getElementById("output").innerHTML = text;
+    </script>
+</body>
+</html>
 
 
