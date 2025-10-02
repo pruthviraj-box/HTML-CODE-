@@ -1272,6 +1272,35 @@ document.getElementById("fruits").innerText = fruits.join(", ");
 <!DOCTYPE html>
 <html>
 <head>
+<title>Date Difference</title>
+</head>
+<body>
+<h2>Calculate Days Between Dates</h2>
+<label>Start Date: <input type="date" id="startDate"></label><br><br>
+<label>End Date: <input type="date" id="endDate"></label><br><br>
+<button onclick="calculateDays()">Calculate</button>
+<p id="daysBetween"></p>
+
+<script>
+function calculateDays() {
+const start = new Date(document.getElementById("startDate").value);
+const end = new Date(document.getElementById("endDate").value);
+
+const diffTime = Math.abs(end - start);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+document.getElementById("daysBetween").innerText = "Days between: " + diffDays;
+}
+</script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
 <title>Array Search</title>
 </head>
 <body>
