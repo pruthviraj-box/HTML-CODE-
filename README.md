@@ -1921,6 +1921,40 @@ document.getElementById("result").textContent = "Numbers: " + text;
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Break Statement Example</title>
+</head>
+<body>
+<h1>Break Statement in JavaScript</h1>
+<button onclick="runLoop()">Run Loop</button>
+<div id="output"></div>
+
+<script>
+function runLoop() {
+  let outputDiv = document.getElementById("output");
+  outputDiv.innerHTML = ""; // Clear previous output
+
+  for (let i = 1; i <= 10; i++) {
+    if (i == 5) {
+      outputDiv.innerHTML += "Reached 5, stopping the loop.<br>";
+      break; // Exit the loop when i is 5
+    }
+    outputDiv.innerHTML += "Number: " + i + "<br>";
+  }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
 
 
 
