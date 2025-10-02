@@ -1300,3 +1300,68 @@ document.getElementById("fruits").innerText = fruits.join(", ");
 
 
 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Add/Remove</title>
+</head>
+<body>
+<h2>Manage Array</h2>
+<input type="text" id="item" placeholder="Enter item">
+<button onclick="addItem()">Add</button>
+<button onclick="removeItem()">Remove Last</button>
+<p id="list"></p>
+
+<script>
+let items = ["Pen", "Pencil", "Eraser"];
+
+function updateList() {
+    document.getElementById("list").innerText = items.join(", ");
+}
+
+function addItem() {
+    const newItem = document.getElementById("item").value;
+    if (newItem) {
+        items.push(newItem);
+        updateList();
+    }
+}
+
+function removeItem() {
+    items.pop();
+    updateList();
+}
+
+updateList();
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Search</title>
+</head>
+<body>
+<h2>Search in Array</h2>
+<input type="text" id="search" placeholder="Search fruit">
+<button onclick="searchFruit()">Search</button>
+<p id="result"></p>
+<script>
+const fruits = ["Apple", "Banana", "Cherry", "Mango"];
+function searchFruit() {
+const query = document.getElementById("search").value.toLowerCase();
+if (fruits.map(f => f.toLowerCase()).includes(query)) {
+document.getElementById("result").innerText = "Found!";
+} else {
+document.getElementById("result").innerText = "Not found.";
+}
+}
+</script>
+</body>
+</html>
