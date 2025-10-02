@@ -1755,6 +1755,77 @@ document.getElementById("result").textContent = "Numbers: " + text;
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Scope Examples</title>
+</head>
+<body>
+    <h1>Javascript Scope Examples</h1>
+    <button onclick="showScope()">Check Scope</button>
+
+    <script>
+        // Global scope
+        var globalVar = "I'm a global variable";
+        let globalLet = "I'm also global (let)";
+        const globalConst = "I'm a global constant";
+
+        function showScope() {
+            console.log("--- Inside showScope function ---");
+
+            // Accessing global variables
+            console.log(globalVar);     // Works
+            console.log(globalLet);     // Works
+            console.log(globalConst);   // Works
+
+            // Function scope
+            var functionVar = "I'm function-scoped";
+            let functionLet = "I'm block-scoped inside function";
+            const functionConst = "I'm also block-scoped inside function";
+
+            console.log(functionVar);   // Works
+            console.log(functionLet);   // Works
+            console.log(functionConst); // Works
+
+            if (true) {
+                // Block scope starts here
+                var blockVar = "I'm still function-scoped (var)";
+                let blockLet = "I'm block-scoped (let)";
+                const blockConst = "I'm block-scoped (const)";
+
+                console.log(blockVar);      // Works
+                console.log(blockLet);      // Works
+                console.log(blockConst);    // Works
+            }
+
+            console.log("--- After block -----");
+            console.log(blockVar);      // Works because var is function scoped
+            try {
+                console.log(blockLet);  // Error! blockLet not accessible here
+            } catch (e) {
+                console.error("blockLet not accessible outside block");
+            }
+            try {
+                console.log(blockConst); // Error! blockConst not accessible here
+            } catch (e) {
+                console.error("blockConst not accessible outside block");
+            }
+        }
+
+        // Trying to access function-scoped variables outside the function
+        try {
+            console.log(functionVar); // Error!
+        } catch (e) {
+            console.error("functionVar not accessible outside function");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
 
 
 
