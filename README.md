@@ -1483,7 +1483,37 @@ updateList();
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch Example</title>
+</head>
+<body>
+    <h2>Switch Example</h2>
+    <p id="output"></p>
 
+    <script>
+        let day = 3;
+        let result = "";
+
+        switch (day) {
+            case 1:
+                result = "Monday";
+                break;
+            case 2:
+                result = "Tuesday";
+                break;
+            case 3:
+                result = "Wednesday";
+                break;
+            default:
+                result = "Invalid day";
+        }
+
+        document.getElementById("output").innerText = result;
+    </script>
+</body>
+</html>
 
 
 
