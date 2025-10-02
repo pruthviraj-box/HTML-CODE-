@@ -1457,4 +1457,35 @@ updateList();
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>If Else Example</title>
+</head>
+<body>
+    <h2>If Else Example</h2>
+    <p id="output"></p>
+
+    <script>
+        let age = 18;
+        let result = "";
+
+        if (age < 18) {
+            result = "You are a minor.";
+        } else if (age == 18) {
+            result = "You just became an adult!";
+        } else {
+            result = "You are an adult.";
+        }
+
+        document.getElementById("output").innerText = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
 
