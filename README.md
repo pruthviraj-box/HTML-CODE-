@@ -2317,3 +2317,60 @@ Column 3
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bootstrap Components Example</title>
+<!-- Bootstrap CSS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container mt-5">
+<h1 class="text-center mb-4">Bootstrap Components Example</h1>
+
+<!-- Button Component -->
+<div class="text-center mb-4">
+<button class="btn btn-primary">Primary Button</button>
+<button class="btn btn-outline-secondary">Outline Button</button>
+</div>
+
+<!-- Alert Component -->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+This is a warning alert—check it out!
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<!-- Card Component -->
+<div class="card mb-4" style="width: 18rem;">
+<img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image" />
+<div class="card-body">
+<h5 class="card-title">Card Title</h5>
+<p class="card-text">This is an example of a Bootstrap card component with text and an image.</p>
+<a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+</div>
+
+<!-- Form Component -->
+<form>
+<div class="mb-3">
+<label for="emailInput" class="form-label">Email address</label>
+<input type="email" class="form-control" id="emailInput" placeholder="name@example.com" />
+</div>
+<div class="mb-3">
+<label for="passwordInput" class="form-label">Password</label>
+<input type="password" class="form-control" id="passwordInput" placeholder="Enter your password" />
+</div>
+<button type="submit" class="btn btn-success">Submit</button>
+</form>
+</div>
+
+<!-- Bootstrap JS Bundle via CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
