@@ -1563,3 +1563,39 @@ document.getElementById("output").innerHTML = text;
 </html>
 
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Sort Example</title>
+</head>
+<body>
+<h2>JavaScript Array Sort Example</h2>
+<p><b>Original Array:</b> <span id="original"></span></p>
+<p><b>Sorted Array (Ascending):</b> <span id="asc"></span></p>
+<p><b>Sorted Array (Descending):</b> <span id="desc"></span></p>
+
+<script>
+// Sample array
+let numbers = [45, 12, 67, 34, 89, 23];
+
+// Show original array
+document.getElementById("original").textContent = numbers.join(", ");
+
+// Sort ascending
+let ascending = [...numbers].sort((a, b) => a - b);
+document.getElementById("asc").textContent = ascending.join(",");
+
+//Sort descending
+let descending = [...numbers].sort((a, b) => b - a);
+document.getElementById("desc").textContent = descending.join(",");
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
