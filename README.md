@@ -1220,7 +1220,34 @@ let output = `
 </html>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Age Calculator</title>
+</head>
+<body>
+<h2>Age Calculator</h2>
+<input type="date" id="birthdate">
+<button onclick="calculateAge()">Calculate Age</button>
+<p id="ageResult"></p>
 
+<script>
+function calculateAge() {
+const birth = new Date(document.getElementById("birthdate").value);
+const today = new Date();
+
+let age = today.getFullYear() - birth.getFullYear();
+const m = today.getMonth() - birth.getMonth();
+
+if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+age--;
+}
+
+document.getElementById("ageResult").innerText = "Your age is: " + age;
+}
+</script>
+</body>
+</html>
 
 
 
