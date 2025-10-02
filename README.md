@@ -2061,6 +2061,58 @@ function runLoop() {
 </html>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Options Example</title>
+</head>
+<body>
+    <label for="level">Select Level:</label>
+    <select id="level">
+        <option value="">--Select Level--</option>
+        <option value="UG">UG</option>
+        <option value="PG">PG</option>
+    </select>
+
+    <br><br>
+
+    <label for="courses">Courses:</label>
+    <select id="courses">
+        <option value="">--Select Course--</option>
+    </select>
+
+    <script>
+        const courseOptions = {
+            "UG": ["B.Sc", "BCA", "BA"],
+            "PG": ["M.Sc", "M.Com", "MA"]
+        };
+
+        function populateCourses() {
+            const levelSelect = document.getElementById("level");
+            const courseSelect = document.getElementById("courses");
+            const selectedLevel = levelSelect.value;
+
+            // Clear previous options
+            courseSelect.innerHTML = "<option value=''>--Select Course--</option>";
+
+            if (selectedLevel && courseOptions[selectedLevel]) {
+                courseOptions[selectedLevel].forEach(course => {
+                    const option = document.createElement("option");
+                    option.value = course;
+                    option.textContent = course;
+                    courseSelect.appendChild(option);
+                });
+            }
+        }
+
+        document.getElementById("level").addEventListener("change", populateCourses);
+        populateCourses(); // Initial call to populate courses if a level is pre-selected
+    </script>
+</body>
+</html>
+
+
+
 
 
 
