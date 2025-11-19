@@ -17,10 +17,10 @@ PRITHVIRAJ NARAVDE
 <title>Heading</title>
 <body>
 <h1>PRUTHVIRAJ</h1>
-<h2>SHUBHAM</h2>
+<h2>BHAKTI</h2>
 <h3>AKASH</h3>
 <h4>PRANJAL</h4>
-<h5>BHAKTI</h5>
+<h5>SHUBHAM</h5>
 <h6></h6>
 </body>
 </html>
