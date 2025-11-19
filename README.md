@@ -27,7 +27,7 @@ PRITHVIRAJ NARAVDE
 
 3.<html>
 <head>
-    <titl>text formating code</title>
+    <titl>Text Formating Codes </title>
 </head>
 <body>
     <b> global chalange  </b>
